@@ -1,6 +1,11 @@
 ## Julia-set-and-Mandelbrot-set-using-p5.js-and-shaderes
 # Conntrolls
 Space bar freezes and unfreezes movement.
+
 Clicking at a locationshion zooms in.
-+ and - zoom in and out respectively.
-h reset the zoom level and translation.
+
+using + and - zoom in and out.
+
+using h reset the zoom level and translation.
+
+pressing t toggels between the Julia and Mandelbrot set.
