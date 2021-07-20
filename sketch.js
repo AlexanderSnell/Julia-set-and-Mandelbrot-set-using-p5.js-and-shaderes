@@ -34,7 +34,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(x, y, WEBGL);
+  cnv = createCanvas(x, y, WEBGL);
+  cnv.touchMoved(mouseMoved);
   noStroke();
 }
 
@@ -79,6 +80,7 @@ function mouseClicked() {
 }
 
 function mouseMoved() {
+  //if (touchScreenUser == true) return;
   if (spaceBar == false) {
     c[0] = mouseX * scale[0] * 2.0/width - (scale[0] + center[0]);
     c[1] = mouseY * scale[1] * 2.0/height - (scale[1] +  center[1]);
