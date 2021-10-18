@@ -10,4 +10,4 @@ using h reset the zoom level and translation.
 
 pressing t toggels between the Julia and Mandelbrot set.
 
-https://this-is-excellent.github.io/Julia-set-and-Mandelbrot-set-using-p5.js-and-shaderes/
+https://alexandersnell.github.io/Julia-set-and-Mandelbrot-set-using-p5.js-and-shaderes/
